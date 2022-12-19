@@ -72,6 +72,7 @@ h1 {
     color: #415840;
 }
 
+/* configuração do botão para abrir o modal */
 button#myBtn {
     position: absolute;
     width: 466px;
@@ -94,8 +95,12 @@ button#myBtn {
 .modal-footer {
     background-color: #CC8770;
 }
+button#myBtnSend {
+    color: #FFFFFF;
+    background-color: #748E77;
+}
 
-/* configurações da section, com os textos e o botão para assinar a lista de e-mails */
+/* configurações da section e divs relacionadas */
 section {
     position: absolute;
     width: 720px;
@@ -133,11 +138,6 @@ div#anuncio {
     font-size: 13px;
     line-height: 225.2%;
     color: #415840;
-}
-
-button#myBtnSend {
-    color: #FFFFFF;
-    background-color: #748E77;
 }
 
 /* segmento da página para a foto */
