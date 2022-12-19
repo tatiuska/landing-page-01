@@ -127,14 +127,11 @@ div#anuncio {
     height: 116px;
     left: 122px;
     top: 537px;
-
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 225.2%;
-    /* or 29px */
-
     color: #415840;
 }
 
