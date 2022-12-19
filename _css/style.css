@@ -1,0 +1,154 @@
+/* Estúdio de Cerâmica - Landing Page */
+/* Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body {
+    background-color: #D8DBE0;
+}
+div#container {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #D8DBE0;
+}
+header h1 {
+    display: none;
+}
+
+div#header {
+    position: absolute;
+    overflow: auto;
+    width: 350px;
+    height: 50px;
+    left: 122px;
+    top: 93px;
+    margin: 0px;
+    padding: 0px;   
+}
+
+div#header img {
+    float: left;
+    width: 35px;
+    height: 27px;
+    left: 122px;
+    top: 100px;
+}
+
+div#header h1 {
+    float: left;
+    width: 223px;
+    height: 40px;
+    left: 170px;
+    top: 93px;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29.55px;
+    line-height: 40px;
+    letter-spacing: -0.07em;
+
+    color: #415840;
+}
+
+h1 {
+    width: 223px;
+    height: 40px;
+    left: 164px;
+    top: 93px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29.55px;
+    line-height: 40px;
+    letter-spacing: -0.07em;
+
+    color: #415840;
+}
+
+button#myBtn {
+    position: absolute;
+    width: 466px;
+    height: 57.11px;
+    left: 122px;
+    top: 675px;
+    background: #CC8770;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.25);
+    border-radius: 77px;
+}
+
+/* configurações do formulário (modal) */
+.modal-header, h4, .close {
+    background-color: #CC8770;
+    color: #FFFFFF !important;
+    text-align: center;
+    font-size: 32px;
+}
+.modal-footer {
+    background-color: #CC8770;
+}
+
+/* configurações da section, com os textos e o botão para assinar a lista de e-mails */
+section {
+    position: absolute;
+    width: 720px;
+    height: 1024px;
+    top: 0px;
+    left: 0px;
+    background-color: #D8DBE0;
+}
+
+div#headline {
+    position: absolute;
+    width: 466px;
+    height: 213px;
+    left: 122px;
+    top: 314px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 71px;
+
+    color: #748E77;
+}
+
+div#anuncio {
+    position: absolute;
+    width: 466px;
+    height: 116px;
+    left: 122px;
+    top: 537px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 225.2%;
+    /* or 29px */
+
+    color: #415840;
+}
+
+button#myBtnSend {
+    color: #FFFFFF;
+    background-color: #748E77;
+}
+
+/* segmento da página para a foto */
+aside {
+    position: absolute;
+    width: 720px;
+    height: 1024px;
+    left: 720px;
+    top: 0px;
+    box-sizing: border-box;
+}
